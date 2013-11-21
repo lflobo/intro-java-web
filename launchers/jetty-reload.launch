@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.ui.externaltools.ProgramLaunchConfigurationType">
+<stringAttribute key="org.eclipse.debug.core.ATTR_REFRESH_SCOPE" value="${working_set:&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;resources&gt;&#10;&lt;item path=&quot;/api&quot; type=&quot;4&quot;/&gt;&#10;&lt;item path=&quot;/business&quot; type=&quot;4&quot;/&gt;&#10;&lt;item path=&quot;/collector&quot; type=&quot;4&quot;/&gt;&#10;&lt;item path=&quot;/common&quot; type=&quot;4&quot;/&gt;&#10;&lt;item path=&quot;/frontend&quot; type=&quot;4&quot;/&gt;&#10;&lt;item path=&quot;/mmp&quot; type=&quot;4&quot;/&gt;&#10;&lt;item path=&quot;/smtp&quot; type=&quot;4&quot;/&gt;&#10;&lt;/resources&gt;}"/>
+<booleanAttribute key="org.eclipse.debug.core.capture_output" value="false"/>
+<booleanAttribute key="org.eclipse.debug.ui.ATTR_CONSOLE_OUTPUT_ON" value="false"/>
+<listAttribute key="org.eclipse.debug.ui.favoriteGroups">
+<listEntry value="org.eclipse.ui.externaltools.launchGroup"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.ui.externaltools.ATTR_LAUNCH_CONFIGURATION_BUILD_SCOPE" value="${project}"/>
+<stringAttribute key="org.eclipse.ui.externaltools.ATTR_LOCATION" value="/usr/bin/touch"/>
+<stringAttribute key="org.eclipse.ui.externaltools.ATTR_TOOL_ARGUMENTS" value="-c site.xml"/>
+<stringAttribute key="org.eclipse.ui.externaltools.ATTR_WORKING_DIRECTORY" value="${workspace_loc:/java-intro-web/contexts}"/>
+</launchConfiguration>
