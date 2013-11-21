@@ -1,7 +1,6 @@
 package pt.lobo.java.intro.servlets;
 
 import java.io.IOException;
-import java.nio.charset.Charset;
 
 import javax.servlet.ServletException;
 import javax.servlet.ServletOutputStream;
