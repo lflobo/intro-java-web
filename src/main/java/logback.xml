@@ -9,7 +9,7 @@
 
 	<logger name="pt.lobo" level="DEBUG" />
 	<logger name="org.apache.ibatis" level="WARN" />
-	<logger name="pt.lobo.java.intro.tutorial.database.mappers" level="WARN" />
+	<logger name="pt.lobo.java.intro.tutorial.database" level="WARN" />
 	
 	<root level="WARN">
 		<appender-ref ref="stdout" />
