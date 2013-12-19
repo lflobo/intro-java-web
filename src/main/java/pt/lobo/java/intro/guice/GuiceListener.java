@@ -29,7 +29,10 @@ public class GuiceListener extends GuiceServletContextListener implements HttpSe
 
 	@Override
 	protected Injector getInjector() {
-		return Guice.createInjector(new ServerModule());
+		return Guice.createInjector(
+			new ServerModule(),
+			new ApiModule()
+		);
 	}
 	
 	@Override

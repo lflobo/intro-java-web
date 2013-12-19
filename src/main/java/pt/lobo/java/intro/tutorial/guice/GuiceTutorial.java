@@ -30,7 +30,7 @@ public class GuiceTutorial {
 	
 	public GuiceTutorial() {
 		/**
-		 * O Guice encarega-se de inicializar todas as dependências e hierarquia de classes.
+		 * O Guice encarrega-se de inicializar todas as dependências e hierarquia de classes.
 		 * Para isso precisamos de criar um injector e começar por injetar a classe que tem
 		 * o main(...)
 		 */

@@ -8,6 +8,7 @@ import pt.lobo.java.intro.api.WebApiNoSqlImpl;
 import pt.lobo.java.intro.api.WebApiSqlImpl;
 
 import com.google.inject.AbstractModule;
+import com.google.inject.Inject;
 import com.google.inject.Provides;
 import com.google.inject.name.Names;
 
@@ -20,7 +21,7 @@ public class ApiModule extends AbstractModule {
 	protected void configure() {
 		/**
 		 * Dizer que a classe que implementa a WebApi Módulo é a
-		 * WebApiImpl
+		 * WebApiSqlImpl
 		 */
 		bind(WebApi.class).to(WebApiSqlImpl.class);
 		
@@ -34,12 +35,12 @@ public class ApiModule extends AbstractModule {
 	/**
 	 * Podemos devolver instâncias mais complexas usando um método para criar
 	 * e anotanto-o com @Provides
-	 * 
-	 * 
 	 */
 	@Provides
 	@Named("NoSQL")
-	public WebApi getNoSqlWebApi() {
+	@Inject
+	public WebApi getNoSqlWebApi(@Named("File") WebApi apiFile) {
+		// apiFile...
 		return new WebApiNoSqlImpl();
 	}
 
